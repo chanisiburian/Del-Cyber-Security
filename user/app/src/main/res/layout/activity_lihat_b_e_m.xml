@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lihatbem"
+    android:gravity="center"
+    android:id="@+id/LihatBEM"
+    tools:context=".LihatBEMActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lihatDepsenbud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Departemen Seni Budaya"
+                    android:layout_marginTop="130dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDepsenbud"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/depsenbud"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/lihatDepagsos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Departemen Agama Sosial"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDepagsos"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/depagsos"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatDepkominfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Departemen Komunikasi Informasi"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDepkominfo"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/depkominfo"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatDPDK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Departemen Dalam Kampus"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDPDK"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatHumas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Departemen Hubungan Masyarakat"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgHumas"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatDepol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Departemen Olahraga"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDepol"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatKetertiban"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Departemen Ketertiban"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgKetertiban"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatDIPTEK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Departemen Ilmu Pengetahuan Teknologi"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDIPTEK"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

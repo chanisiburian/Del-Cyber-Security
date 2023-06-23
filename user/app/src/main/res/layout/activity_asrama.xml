@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityAsrama.AsramaActivity"
+    android:background="@drawable/bglihatukm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERATURAN"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="60dp"
+        android:id="@+id/tbhAsrama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/cardasrama"/>
+
+
+
+</RelativeLayout>

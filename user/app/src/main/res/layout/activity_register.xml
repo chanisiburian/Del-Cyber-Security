@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@drawable/bgregister"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="400dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etRegisterName"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="245dp"
+                    android:drawableStart="@drawable/name"
+                    android:hint="     Enter your Nama.."
+                    android:padding="16dp"
+                    android:inputType="text"
+                    android:textColor="#767676" />
+                <EditText
+                    android:id="@+id/etResisterNim"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableStart="@drawable/email"
+                    android:hint="     Enter your NIM.."
+                    android:padding="16dp"
+                    android:inputType="text"
+                    android:textColor="#767676" />
+                <EditText
+                    android:id="@+id/etRegisterPassword"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableStart="@drawable/password"
+                    android:hint="     Enter your PASSWORD.."
+                    android:padding="16dp"
+                    android:inputType="textPassword"
+                    android:textColor="#767676" />
+
+
+
+                <Spinner
+
+                    android:id="@+id/etRegisterPrody"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/prody"
+                    android:layout_marginLeft="10dp"
+                    android:drawableStart="@drawable/time"
+                    android:padding="16dp"
+                    android:hint="     Enter your Angkatan.."
+                    android:inputType="text"
+                    android:textColor="#767676"
+                    android:layout_marginTop="20dp">
+
+
+                </Spinner>
+
+                <Spinner
+                    android:id="@+id/etRegisterAngkatan"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/numbers"
+                    android:layout_marginLeft="10dp"
+                    android:drawableStart="@drawable/time"
+                    android:padding="16dp"
+                    android:hint="     Enter your Angkatan.."
+                    android:inputType="text"
+                    android:textColor="#767676"
+                    android:layout_marginTop="20dp"
+                    >
+
+                </Spinner>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="100dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/tvLoginHere"
+                            android:layout_width="124dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/btncancel"
+                            android:text="Cancel"
+                            android:textAllCaps="true"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <Button
+                            android:id="@+id/btnRegister"
+                            android:layout_width="124dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="200dp"
+                            android:background="@drawable/btnregister"
+                            android:clickable="true"
+                            android:text="Register"
+                            android:textAllCaps="true"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

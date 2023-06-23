@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="@drawable/btnregister">
+
+        <TextView
+            android:id="@+id/tvId_Aturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id_aturan"
+            android:fontFamily="@font/montserrat"
+            android:visibility="gone"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_peraturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peraturan"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/tv_poin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poin"
+            android:fontFamily="@font/montserrat"
+            android:textSize="22sp"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

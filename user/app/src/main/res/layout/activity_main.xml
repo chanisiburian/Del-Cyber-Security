@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdashboard"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="328dp">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvLihatUKM"
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:id="@+id/l_lihatukm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="51dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/lihatukm" />
+
+                            <Button
+                                android:id="@+id/lihatUKM"
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="Lihat UKM"
+                                android:textAllCaps="false"
+                                android:background="#ffff"
+                                android:textColor="#808080"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvLihatBem"
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/l_lihatbem"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="65dp"
+                                android:layout_height="51dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="3dp"
+                                android:src="@drawable/bem" />
+
+                            <Button
+                                android:id="@+id/lihatBEM"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="Lihat BEM"
+                                android:background="#ffff"
+                                android:textAllCaps="false"
+                                android:textColor="#808080"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvPeraturanAsrama"
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:id="@+id/l_lihatasrama"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:layout_width="67dp"
+                                android:layout_height="47dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/peraturanasrama" />
+
+                            <Button
+                                android:id="@+id/lihatPeraturanAsrama"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:background="#ffff"
+                                android:text="Lihat Peraturan"
+                                android:textAllCaps="false"
+                                android:textColor="#808080"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/l_profilitdel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvProfilITDEL"
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#ffff"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:layout_width="38dp"
+                                android:layout_height="46dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/del" />
+
+                            <Button
+                                android:id="@+id/lihatProfilITDEL"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="Profil It Del"
+                                android:background="#ffff"
+                                android:textAllCaps="false"
+                                android:textColor="#808080"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvAboutUs"
+                        android:layout_width="118dp"
+                        android:layout_height="116dp"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="#ffff"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:id="@+id/l_aboutus"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:layout_width="52dp"
+                                android:layout_height="46dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/info" />
+
+                            <Button
+                                android:id="@+id/aboutUs"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="About Us"
+                                android:textAllCaps="false"
+                                android:background="#ffff"
+                                android:textColor="#808080"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvLogout"
+                        android:layout_width="118dp"
+                        android:layout_height="116dp"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="#ffff"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:id="@+id/l_logout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:layout_width="47dp"
+                                android:layout_height="42dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/logout" />
+
+                            <Button
+                                android:id="@+id/Logout"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="Logout"
+                                android:textAllCaps="false"
+                                android:textColor="#808080"
+                                android:background="#ffff"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

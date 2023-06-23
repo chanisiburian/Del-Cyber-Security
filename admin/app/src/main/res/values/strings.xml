@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ADMIN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_hedaer">Navigation Hedaer</string>
+    <string name="departemen_komunikasi_infomasi"><![CDATA[Departemen Komunikasi & Infomasi]]></string>
+
+    <string name="regist_delpro">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoeG0I-3FVLzxaa6iT7UPQGFfA6mIV1NQCSdyWp--b7jWx9g/viewform?usp=sf_link">REGISTER</a>
+    </string>
+    <string name="regist_depsenbud">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoeG0I-3FVLzxaa6iT7UPQGFfA6mIV1NQCSdyWp--b7jWx9g/viewform?usp=sf_link">REGISTER</a>
+    </string>
+
+
+</resources>

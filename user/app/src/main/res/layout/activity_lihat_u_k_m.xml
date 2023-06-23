@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/lihatukm2"
+    android:gravity="center"
+    android:id="@+id/LihatUKM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatUKMActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lihatDelpro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Del Programming Club"
+                    android:layout_marginTop="130dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDelpro"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/delpro"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/lihatDRC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Del Robotic Club"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDRC"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/delrobotic"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatDSC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Data Science Club"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgDSC"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/datascience"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatPSM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Paduan Suara Mahasiswa"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgPSM"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/psm"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/lihatPGM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Paduan Gitar Mahasiswa"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgPGM"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/pgm"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/lihatEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Del English Club"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/imgEnglish"
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

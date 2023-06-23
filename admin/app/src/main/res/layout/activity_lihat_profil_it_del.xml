@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglihatukm"
+    android:gravity="center"
+    android:id="@+id/lihatProfilITDEL"
+    tools:context=".LihatProfilItDelActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Institut Teknologi Del"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/del"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:text="Jenderal TNI (Purn.) Luhut B. Pandjaitan mendirikan Yayasan Simargala pada tanggal 30 Agustus 2001 di Jakarta. Simargala adalah nama desa kelahiran beliau di Huta Namora, Kecamatan Silaen, Kabupaten Toba Samosir, Sumatera Utara. Pendirian Yayasan Simargala dilandasi oleh keinginan luhur untuk meningkatkan keterampilan dan kesejahteraan masyarakat perdesaan yang kurang tersentuh pembangunan. Tekad yang kuat untuk berpartisipasi pada program pemerintahan dalam bidang pendidikan, sosial, kemanusiaan, seni dan budaya, dan kelestarian lingkungan.
+
+Masih pada tahun 2001, karena pertimbangan nama yang bersifat lokal, Yayasan Simargala diubah menjadi Yayasan Del. Kata “Del” berasal dari usulan salah satu anggota Yayasan untuk menggunakan istilah “Del”, yang mengandung arti “pemimpin yang selalu berada selangkah lebih maju”. Yayasan Del adalah organisasi nir laba yang didirikan untuk membawa perubahan dan pembaharuan bagi individu dan juga masyarakat.
+Menjadi lembaga selangkah lebih depan dalam pengembangan talenta manusia yang memberikan kontribusi berarti pada inovasi teknologi dan keberlanjutan sosial”. (Becoming one-step-ahead Institution in the development of human talent that gives meaningful contribution to technological innovation and social sustainability).
+Mengotimalkan manusia paripurna dan memberdayakan masyarakat dalam mencerdaskan kehidupan bangsa”. (To optimize human completely and to empower community in nurturing the nation’s intellectual life)
+
+Tujuan Yayasan Del adalah untuk menyediakan akses pendidikan berkualitas di daerah terpencil bagi siswa-siswa berprestasi dengan latar belakang masyarakat ekonomi lemah, dengan mendirikan Institut Teknologi Del, SMA Unggul Del, Sekolah Noah, dan Rumah Faye.
+
+Politeknik Informatika Del didirikan pada tahun 2001. Sesuai dengan perkembangan keilmuan dan industri, Politeknik Informatika Del ditingkatkan statusnya menjadi Institut Teknologi Del pada tahun 2013. Yayasan Del mendirikan SMA Unggul Del di Laguboti pada tahun 2012. Selain itu, Yayasan Del juga mendirikan Sekolah NOAH di Kalisari Cijantung pada tahun 2007 dan Rumah Faye.
+
+Tidak hanya berkiprah di bidang pendidikan, Yayasan Del yang berkantor pusat di Gedung Sopo Del Jakarta Selatan ini, juga aktif bekerjasama dengan pemerintah daerah dan lembaga sosial yang ada di Indonesia untuk meningkatkan pelayanan serta memperluas cakrawala bidang pelayanan strategis lainnya."/>
+
+
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="304dp"
+                    android:src="@drawable/bapakluhut"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/psm1"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/delpro1"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/depsenbud1"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/dpdk1"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="444dp"
+                    android:layout_height="204dp"
+                    android:src="@drawable/drc1"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

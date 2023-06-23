@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PLOM DEL</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_hedaer">Navigation Hedaer</string>
+    <string name="departemen_komunikasi_infomasi"><![CDATA[Departemen Komunikasi & Infomasi]]></string>
+
+    <string name="regist_delpro">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoeG0I-3FVLzxaa6iT7UPQGFfA6mIV1NQCSdyWp--b7jWx9g/viewform?usp=sf_link">REGISTER</a>
+    </string>
+    <string name="regist_depsenbud">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoeG0I-3FVLzxaa6iT7UPQGFfA6mIV1NQCSdyWp--b7jWx9g/viewform?usp=sf_link">REGISTER</a>
+    </string>
+
+    <string-array name="prody">
+        <item>--Pilih Prodi Anda--</item>
+        <item>D3 Teknologi Informasi</item>
+        <item>D3 Teknologi Komputer</item>
+        <item>D4 Teknologi Rekayasa Perangkat Lunak</item>
+        <item>S1 Teknik Informatika</item>
+        <item>S1 Teknik Elektro</item>
+        <item>S1 Manajemen Rekayasa</item>
+        <item>S1 Bioproses</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>--Pilih Angkatan Anda--</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+
+</resources>
